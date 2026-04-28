@@ -88,7 +88,13 @@ This project documents the deployment of a **Hybrid Identity Environment**, brid
 <details>
 <summary>Click to expand: Phase 4 - The Hybrid Bridge (Entra ID Integration)</summary>
 
-(Put your text and screenshots here)
+- **UPN Suffix Transformation:** Updated local user UPNs via PowerShell to match the cloud domain for a seamless SSO experience. (ss)
+
+- **Entra Connect Sync:** Deployed the hybrid bridge using Password Hash Synchronization (PHS) and Seamless Single Sign-On. (ss)
+
+- **Zero Trust Identity:** Created cloud-native groups for M365 Group-Based Licensing. (ss)
+
+  - Enforced Multi-Factor Authentication (MFA) and Conditional Access policies to block legacy authentication and non-persistent sessions. (ss)
 
 </details>
 
