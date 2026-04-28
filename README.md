@@ -106,7 +106,8 @@ This project documents the deployment of a **Hybrid Identity Environment**, brid
 
 - **MDM Enrollment:** Configured a GPO for automatic workstation enrollment into Microsoft Intune using TPM-backed hardware verification. <img src="images/Screenshot%202026-04-25%20220151.png" width="800"> 
 
-- **Security Compliance:** Deployed BitLocker, Antivirus, and USB-block policies. Verified non-compliance via automated email notifications to end-users. <img src="images/Screenshot%202026-04-26%20134014.png" width="800"> <img src="images/Screenshot%202026-04-26%20183328.png" width="800">
+- **Security Compliance:** Deployed BitLocker, Antivirus, and USB-block policies. Verified non-compliance via automated email notifications to end-users.
+<img src="images/Screenshot%202026-04-26%20134014.png" width="800"> <img src="images/Screenshot%202026-04-26%20183328.png" width="800">
 
 - **EDR & Threat Hunting:** Onboarded devices to Microsoft Defender for Endpoint.
 
