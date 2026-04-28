@@ -59,9 +59,10 @@ This project documents the deployment of a **Hybrid Identity Environment**, brid
 
 - **Active Directory Deployment:** Promotion of the server to a Domain Controller with AD DS paths hosted on the redundant RAID volume.
 
-- **OU & Group Structure:** Designed a departmental hierarchy (HR, IT, Security, Users) and implemented Role-Based Access Control (RBAC) via security groups. <img src="images/Screenshot%202026-04-17%20212217.png" width="800">
+- **OU & Group Structure:** Designed a departmental hierarchy (HR, IT, Security, Users) and implemented Role-Based Access Control (RBAC) via security groups.
+<img src="images/Screenshot%202026-04-17%20212217.png" width="800">
 
-- **Secure File Services:** Implemented Access-Based Enumeration (ABE) to hide unauthorized directories from users. <img src="images/Screenshot%202026-04-17%20224942.png" width="800">
+- **Secure File Services:** Implemented Access-Based Enumeration (ABE) to hide unauthorized directories from users. <img src="images/Screenshot%202026-04-17%20224942.png" width="800" height="600">
 
   - Balanced NTFS and Share permissions to enforce strict "Least Privilege" access.
 
