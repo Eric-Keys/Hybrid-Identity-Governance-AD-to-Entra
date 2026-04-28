@@ -13,6 +13,7 @@ This project documents the deployment of a **Hybrid Identity Environment**, brid
 - **Windows Server 2022**
 - **Active Directory**
 - **Microsoft Entra**
+- **Windows Defender**
 - **Intune**
 - **VMWare**
 - **Powershell**
