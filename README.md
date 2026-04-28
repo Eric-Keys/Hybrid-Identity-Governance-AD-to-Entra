@@ -55,7 +55,17 @@ This project documents the deployment of a **Hybrid Identity Environment**, brid
 <details>
 <summary>Click to expand: Phase 2 - Identity Architecture & RBAC (On-Premises)</summary>
 
-(Put your text and screenshots here)
+- Active Directory Deployment: Promotion of the server to a Domain Controller with AD DS paths hosted on the redundant RAID volume.
+
+- OU & Group Structure: Designed a departmental hierarchy (HR, IT, Security, Users) and implemented Role-Based Access Control (RBAC) via security groups. (ss)
+
+- Secure File Services: * Implemented Access-Based Enumeration (ABE) to hide unauthorized directories from users. (ss)
+
+  - Balanced NTFS and Share permissions to enforce strict "Least Privilege" access.
+
+  - Automated drive mapping for departmental shares via Group Policy. (ss)
+
+- PowerShell Automation: Developed and executed a script to bulk-provision 100 users from a CSV, handling OU placement and group membership automatically. (ss)
 
 </details>
 
