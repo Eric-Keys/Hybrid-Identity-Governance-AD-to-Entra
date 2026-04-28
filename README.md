@@ -47,8 +47,8 @@ This project documents the deployment of a **Hybrid Identity Environment**, brid
 <summary>Click to expand: Phase 1 - Infrastructure & RAID Setup</summary>
   
 - **Server Provisioning:** Allocation of resources and conversion from Evaluation to Retail mode to ensure environment stability.
-  ![Alt Text](images/<Screenshot 2026-04-16 115013/>
-)
+  ![Alt Text](images/Screenshot 2026-04-16 115013)
+  
 - **RAID 1 Implementation:** Configured a mirrored volume across two dedicated drives to ensure hardware-level redundancy for the OS and Active Directory database. (ss)
 - **Failure Simulation:** Performed a "Pull-the-Plug" test by removing a drive from the VM. Verified data persistence on the surviving mirror and documented the process of initializing a new drive to rebuild the array. (ss)
 - **Network Persistence:** Resolved a VMware NAT service failure (ss) and configured a static IPv4 stack with loopback DNS to ensure DC stability. (ss)
