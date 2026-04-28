@@ -42,3 +42,38 @@ This project documents the deployment of a **Hybrid Identity Environment**, brid
 - **Automation as a Force Multiplier:** By using **PowerShell** to provision 100 users instantly, I learned how automation reduces human error and allows IT departments to scale efficiently.
 
 ## Process
+<details>
+<summary>Click to expand: Phase 1 - Infrastructure & RAID Setup</summary>
+
+(Put your text and screenshots here)
+
+</details>
+
+<details>
+<summary>Click to expand: Phase 2 - Identity Architecture & RBAC (On-Premises)</summary>
+
+(Put your text and screenshots here)
+
+</details>
+
+<details>
+<summary>Click to expand: Phase 3 - Defensive GPOs & Data Recovery</summary>
+
+(Put your text and screenshots here)
+
+</details>
+
+<details>
+<summary>Click to expand: Phase 4 - The Hybrid Bridge (Entra ID Integration)</summary>
+
+(Put your text and screenshots here)
+
+</details>
+
+<details>
+<summary>Click to expand: Phase 5 - Modern Management & Incident Response (Intune/Defender)</summary>
+
+(Put your text and screenshots here)
+
+</details>
+
