@@ -55,25 +55,34 @@ This project documents the deployment of a **Hybrid Identity Environment**, brid
 <details>
 <summary>Click to expand: Phase 2 - Identity Architecture & RBAC (On-Premises)</summary>
 
-- Active Directory Deployment: Promotion of the server to a Domain Controller with AD DS paths hosted on the redundant RAID volume.
+- **Active Directory Deployment:** Promotion of the server to a Domain Controller with AD DS paths hosted on the redundant RAID volume.
 
-- OU & Group Structure: Designed a departmental hierarchy (HR, IT, Security, Users) and implemented Role-Based Access Control (RBAC) via security groups. (ss)
+- **OU & Group Structure:** Designed a departmental hierarchy (HR, IT, Security, Users) and implemented Role-Based Access Control (RBAC) via security groups. (ss)
 
-- Secure File Services: * Implemented Access-Based Enumeration (ABE) to hide unauthorized directories from users. (ss)
+- **Secure File Services:** Implemented Access-Based Enumeration (ABE) to hide unauthorized directories from users. (ss)
 
   - Balanced NTFS and Share permissions to enforce strict "Least Privilege" access.
 
   - Automated drive mapping for departmental shares via Group Policy. (ss)
 
-- PowerShell Automation: Developed and executed a script to bulk-provision 100 users from a CSV, handling OU placement and group membership automatically. (ss)
+- **PowerShell Automation:** Developed and executed a script to bulk-provision 100 users from a CSV, handling OU placement and group membership automatically. (ss)
 
 </details>
 
 <details>
 <summary>Click to expand: Phase 3 - Defensive GPOs & Data Recovery</summary>
 
-(Put your text and screenshots here)
+- **Group Policy Hardening:** Enforced account lockout thresholds (5 attempts) and complex password requirements. (ss)
 
+  - Configured targeted GPOs for Control Panel restrictions and mandatory screensaver lockouts for high-security OUs. (ss)
+
+- **Data Protection Strategy:**
+
+  - **Shadow Copies:** Configured VSS on the RAID volume for point-in-time file recovery. (ss)
+
+  - **Windows Server Backup:** Dedicated a 150GB virtual disk for full-system bare-metal recovery and incremental system state backups. (ss)
+
+  - **AD Recycle Bin:** Enabled for near-instant restoration of deleted identity objects. (ss)
 </details>
 
 <details>
