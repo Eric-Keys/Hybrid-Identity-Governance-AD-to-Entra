@@ -104,16 +104,16 @@ This project documents the deployment of a **Hybrid Identity Environment**, brid
 <details>
 <summary>Click to expand: Phase 5 - Modern Management & Incident Response (Intune/Defender)</summary>
 
-- **MDM Enrollment:** Configured a GPO for automatic workstation enrollment into Microsoft Intune using TPM-backed hardware verification. (ss)
+- **MDM Enrollment:** Configured a GPO for automatic workstation enrollment into Microsoft Intune using TPM-backed hardware verification. <img src="images/Screenshot%202026-04-25%20220151.png" width="800"> 
 
-- **Security Compliance:** Deployed BitLocker, Antivirus, and USB-block policies. Verified non-compliance via automated email notifications to end-users. (ss)
+- **Security Compliance:** Deployed BitLocker, Antivirus, and USB-block policies. Verified non-compliance via automated email notifications to end-users. <img src="images/Screenshot%202026-04-26%20134014.png" width="800"> <img src="images/Screenshot%202026-04-26%20183328.png" width="800">
 
 - **EDR & Threat Hunting:** Onboarded devices to Microsoft Defender for Endpoint.
 
-  - Simulated a malware trigger and successfully monitored the alert in the Defender Security Portal. (ss)
+  - Simulated a malware trigger and successfully monitored the alert in the Defender Security Portal. <img src="images/Screenshot%202026-04-27%20012700.png" width="800">
 
-- **Incident Remediation:** Demonstrated administrative control by revoking active sessions, resetting compromised passwords, and performing a full Remote Wipe of a virtual workstation. (ss)
+- **Incident Remediation:** Demonstrated administrative control by revoking active sessions, resetting compromised passwords, and performing a full Remote Wipe of a virtual workstation. <img src="images/Screenshot%202026-04-27%20030758.png" width="800">
 
-- **Privileged Identity Management (PIM):** Implemented Just-In-Time (JIT) provisioning for Cloud Admin roles, eliminating "standing access" for the IT team. (ss)
+- **Privileged Identity Management (PIM):** Implemented Just-In-Time (JIT) provisioning for Cloud Admin roles, eliminating "standing access" for the IT team. <img src="images/Screenshot%202026-04-27%20173154.png" width="800">
 </details>
 
