@@ -116,6 +116,8 @@ This project documents the deployment of a **Hybrid Identity Environment**, brid
 
 - **Incident Remediation:** Demonstrated administrative control by revoking active sessions, resetting compromised passwords, and performing a full Remote Wipe of a virtual workstation. <img src="images/Screenshot%202026-04-27%20030758.png" width="800">
 
-- **Privileged Identity Management (PIM):** Implemented Just-In-Time (JIT) provisioning for Cloud Admin roles, eliminating "standing access" for the IT team. <img src="images/Screenshot%202026-04-27%20173154.png" width="800">
+- **Privileged Identity Management (PIM):** Implemented Just-In-Time (JIT) provisioning for Cloud Admin roles, eliminating "standing access" for the IT team.
+
+<img src="images/Screenshot%202026-04-27%20173154.png" width="800">
 </details>
 
