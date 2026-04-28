@@ -48,9 +48,10 @@ This project documents the deployment of a **Hybrid Identity Environment**, brid
   
 - **Server Provisioning:** Allocation of resources and conversion from Evaluation to Retail mode to ensure environment stability.
 <img src="images/Screenshot%202026-04-16%20115013.png" width="800">
-- **RAID 1 Implementation:** Configured a mirrored volume across two dedicated drives to ensure hardware-level redundancy for the OS and Active Directory database. ![Alt Text](<images/Screenshot 2026-04-28 144238.png>)
-- **Failure Simulation:** Performed a "Pull-the-Plug" test by removing a drive from the VM. Verified data persistence on the surviving mirror and documented the process of initializing a new drive to rebuild the array. ![Alt Text](<images/Screenshot 2026-04-16 125220.png>)
-- **Network Persistence:** Resolved a VMware NAT service failure and configured a static IPv4 stack with loopback DNS to ensure DC stability. ![Alt Text](<images/Screenshot 2026-04-20 114957.png>)
+
+- **RAID 1 Implementation:** Configured a mirrored volume across two dedicated drives to ensure hardware-level redundancy for the OS and Active Directory database. <img src="images/Screenshot%202026-04-16%20115013.png" width="800">
+- **Failure Simulation:** Performed a "Pull-the-Plug" test by removing a drive from the VM. Verified data persistence on the surviving mirror and documented the process of initializing a new drive to rebuild the array. <img src="images/Screenshot%202026-04-16%20115013.png" width="800">
+- **Network Persistence:** Resolved a VMware NAT service failure and configured a static IPv4 stack with loopback DNS to ensure DC stability. <img src="images/Screenshot%202026-04-16%20115013.png" width="800">
 </details>
 
 <details>
