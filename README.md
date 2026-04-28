@@ -101,16 +101,16 @@ This project documents the deployment of a **Hybrid Identity Environment**, brid
 <details>
 <summary>Click to expand: Phase 5 - Modern Management & Incident Response (Intune/Defender)</summary>
 
-- MDM Enrollment: Configured a GPO for automatic workstation enrollment into Microsoft Intune using TPM-backed hardware verification. (ss)
+- **MDM Enrollment:** Configured a GPO for automatic workstation enrollment into Microsoft Intune using TPM-backed hardware verification. (ss)
 
-- Security Compliance: Deployed BitLocker, Antivirus, and USB-block policies. Verified non-compliance via automated email notifications to end-users. (ss)
+- **Security Compliance:** Deployed BitLocker, Antivirus, and USB-block policies. Verified non-compliance via automated email notifications to end-users. (ss)
 
-- EDR & Threat Hunting: * Onboarded devices to Microsoft Defender for Endpoint.
+- **EDR & Threat Hunting:** Onboarded devices to Microsoft Defender for Endpoint.
 
   - Simulated a malware trigger and successfully monitored the alert in the Defender Security Portal. (ss)
 
-- Incident Remediation: Demonstrated administrative control by revoking active sessions, resetting compromised passwords, and performing a full Remote Wipe of a virtual workstation. (ss)
+- **Incident Remediation:** Demonstrated administrative control by revoking active sessions, resetting compromised passwords, and performing a full Remote Wipe of a virtual workstation. (ss)
 
-- Privileged Identity Management (PIM): Implemented Just-In-Time (JIT) provisioning for Cloud Admin roles, eliminating "standing access" for the IT team. (ss)
+- **Privileged Identity Management (PIM):** Implemented Just-In-Time (JIT) provisioning for Cloud Admin roles, eliminating "standing access" for the IT team. (ss)
 </details>
 
