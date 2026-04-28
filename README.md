@@ -21,7 +21,7 @@
 ## Topology
 <img width="1408" height="768" alt="topology" src="https://github.com/user-attachments/assets/fe4a09c3-94d4-4eb0-84d6-5a52341454a1" />
 
-## Challenges and Troubleshooting
+## Challenges & Troubleshooting
 - **Virtual Network Connectivity (VMware NAT Service): * Issue:** Encountered an "Ethernet Disconnected" error on the Windows  Server VM, preventing IP discovery and domain configuration.
   - **Resolution:** Identified that the `VMware NAT Service` on the host machine had stopped. Manually restarted the service via `services.msc`, which successfully restored the virtual network bridge and allowed the server to pull a valid IP.
 - **DNS Resolution during Domain Joins: * Issue:** New client VMs were unable to find the Domain Controller during the domain join process.
