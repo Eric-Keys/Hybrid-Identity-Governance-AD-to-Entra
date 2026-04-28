@@ -75,17 +75,17 @@ This project documents the deployment of a **Hybrid Identity Environment**, brid
 <details>
 <summary>Click to expand: Phase 3 - Defensive GPOs & Data Recovery</summary>
 
-- **Group Policy Hardening:** Enforced account lockout thresholds (5 attempts) and complex password requirements. (ss)
+- **Group Policy Hardening:** Enforced account lockout thresholds (5 attempts) and complex password requirements. <img src="images/Screenshot%202026-04-20%20204311.png" width="800" height="500">
 
-  - Configured targeted GPOs for Control Panel restrictions and mandatory screensaver lockouts for high-security OUs. (ss)
+  - Configured targeted GPOs for Control Panel restrictions and mandatory screensaver lockouts for high-security OUs. 
 
 - **Data Protection Strategy:**
 
-  - **Shadow Copies:** Configured VSS on the RAID volume for point-in-time file recovery. (ss)
+  - **Shadow Copies:** Configured VSS on the RAID volume for point-in-time file recovery. <img src="images/Screenshot%202026-04-18%20133450.png" width="800" height="500">
 
-  - **Windows Server Backup:** Dedicated a 150GB virtual disk for full-system bare-metal recovery and incremental system state backups. (ss)
+  - **Windows Server Backup:** Dedicated a 150GB virtual disk for full-system bare-metal recovery and incremental system state backups. <img src="images/Screenshot%202026-04-18%20161133.png" width="800">
 
-  - **AD Recycle Bin:** Enabled for near-instant restoration of deleted identity objects. (ss)
+  - **AD Recycle Bin:** Enabled for near-instant restoration of deleted identity objects. <img src="images/Screenshot%202026-04-18%20210730.png" width="800" height="500">
 </details>
 
 <details>
